@@ -2,6 +2,21 @@
 
 Skills for working with the [Aurabox](https://aurabox.cloud) medical imaging platform and medical imaging data.
 
+---
+
+<div align="center">
+
+### 🛠️ This project was built by [Aurabox](https://github.com/aurabx)
+
+*Some of our other projects...*
+
+[![Runbeam](https://img.shields.io/badge/Runbeam-Data_Mesh_Platform-purple?style=flat-square)](https://runbeam.io)
+[![JMIX](https://img.shields.io/badge/Aurabox-Medical_Imaging_Exchange-blue?style=flat-square)](https://aurabox.cloud)
+
+</div>
+
+---
+
 ## Skills
 
 ### Aurabox API
