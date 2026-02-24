@@ -8,15 +8,15 @@ Skills for working with the [Aurabox](https://aurabox.cloud) medical imaging pla
 
 | Skill | Description |
 |-------|-------------|
-| [aurabox-rest-api](aurabox-rest-api/) | Client code for the Aurabox REST API (patients, cases, studies) |
+| [aurabox-rest-api](skills/aurabox-rest-api/) | Client code for the Aurabox REST API (patients, cases, studies) |
 
 ### Medical Imaging
 
 | Skill | Description |
 |-------|-------------|
-| [dicom-processing](dicom-processing/) | Read, write, and manipulate DICOM files with pydicom and DCMTK |
-| [dicomweb-protocol](dicomweb-protocol/) | Build DICOMweb clients (WADO-RS, STOW-RS, QIDO-RS) |
-| [medical-imaging-pipelines](medical-imaging-pipelines/) | Format conversion, preprocessing, and ML dataset preparation |
+| [dicom-processing](skills/dicom-processing/) | Read, write, and manipulate DICOM files with pydicom and DCMTK |
+| [dicomweb-protocol](skills/dicomweb-protocol/) | Build DICOMweb clients (WADO-RS, STOW-RS, QIDO-RS) |
+| [medical-imaging-pipelines](skills/medical-imaging-pipelines/) | Format conversion, preprocessing, and ML dataset preparation |
 
 ## Installing
 
@@ -98,4 +98,3 @@ Each skill is a `SKILL.md` file with YAML frontmatter (`name` and `description`)
 - Skills have zero cost when not triggered (only the description is loaded)
 - Multiple skills can coexist without bloating context
 - Skills trigger automatically -- no manual invocation needed
-# skills
