@@ -1,0 +1,59 @@
+{
+  "$schema": "https://skill.json.org/schema/1.0.0/skill.schema.json",
+  "name": "aurabox-skills",
+  "version": "1.0.0",
+  "description": "Skills for working with the Aurabox medical imaging platform and medical imaging data",
+  "author": {
+    "name": "Aurabox",
+    "url": "https://github.com/aurabx"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aurabx/skills.git"
+  },
+  "homepage": "https://aurabox.cloud",
+  "keywords": ["medical-imaging", "dicom", "dicomweb", "healthcare", "aurabox"],
+  "skills": [
+    {
+      "name": "aurabox-rest-api",
+      "path": "./skills/aurabox-rest-api",
+      "description": "Generate client code and integrations for the Aurabox REST API. Covers patients, cases (de-identified patients), and studies endpoints with Bearer token authentication. Use when building Aurabox API integrations, querying patient or study data, creating API clients, or working with Aurabox programmatically.",
+      "integrity": "sha256-9waboZ1XIdR88zi3eEyo0SbV0Hhx1XumgkI7bEjIIVg=",
+      "category": "development",
+      "tags": ["aurabox", "api", "rest", "patients", "studies"]
+    },
+    {
+      "name": "dicom-processing",
+      "path": "./skills/dicom-processing",
+      "description": "Work with DICOM medical imaging files programmatically using pydicom, dcmtk, and related tools. Read, write, modify, and validate DICOM tags, pixel data, and metadata. Use when reading DICOM files, extracting metadata, modifying tags, working with pixel data, converting transfer syntaxes, validating DICOM conformance, or scripting bulk DICOM operations.",
+      "integrity": "sha256-pFuvKKUi24MIYD6oZ9CJcBkxxZywubvVyNcM2Ndtuuw=",
+      "category": "medical-imaging",
+      "tags": ["dicom", "pydicom", "dcmtk", "pixel-data", "medical-imaging"],
+      "requires": {
+        "tools": ["python3"]
+      }
+    },
+    {
+      "name": "dicomweb-protocol",
+      "path": "./skills/dicomweb-protocol",
+      "description": "Build DICOMweb clients and integrations using WADO-RS (retrieve), STOW-RS (store), and QIDO-RS (query) protocols. Handles multipart MIME encoding, content negotiation, query parameters, and authentication. Use when building DICOMweb clients, querying a DICOMweb server, uploading DICOM via STOW-RS, retrieving imaging via WADO-RS, or integrating with any DICOMweb-compliant system including Aurabox, Orthanc, dcm4chee, or Google Cloud Healthcare API.",
+      "integrity": "sha256-amE1x4cPQHdEYy2Jw4O6MHjjA/zTDn47ig2iDc11Zus=",
+      "category": "medical-imaging",
+      "tags": ["dicomweb", "wado-rs", "stow-rs", "qido-rs", "medical-imaging"],
+      "requires": {
+        "tools": ["python3"]
+      }
+    },
+    {
+      "name": "medical-imaging-pipelines",
+      "path": "./skills/medical-imaging-pipelines",
+      "description": "Build automated pipelines for medical imaging data: format conversion (DICOM to NIfTI, PNG, HDF5), batch processing, ML dataset preparation, research data export, and imaging ETL workflows. Use when converting DICOM to other formats, preparing imaging datasets for machine learning, building research data pipelines, batch processing medical images, extracting imaging features, or automating imaging workflows.",
+      "integrity": "sha256-g2rD4C3JNp54PKbz1oH/h2mVnmHtXVUW9MyuopSHotE=",
+      "category": "data",
+      "tags": ["pipeline", "etl", "nifti", "machine-learning", "medical-imaging"],
+      "requires": {
+        "tools": ["python3"]
+      }
+    }
+  ]
+}
