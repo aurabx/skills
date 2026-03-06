@@ -1,5 +1,9 @@
 .claude/
+.automatic/
 .idea/
 .nexus/
 .mcp.json
+opencode.json
 .DS_Store
+/.agents
+/CLAUDE.md
