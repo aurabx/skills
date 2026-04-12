@@ -1,5 +1,7 @@
 # Aurabox Skills
 
+[![Install in Automatic](https://tryautomatic.app/badges/install.svg)](automatic://install?repo=aurabx/skills)
+
 Skills for working with the [Aurabox](https://aurabox.cloud) medical imaging platform and medical imaging data.
 
 ---
