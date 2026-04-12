@@ -37,6 +37,14 @@ Skills for working with the [Aurabox](https://aurabox.cloud) medical imaging pla
 
 ## Installing
 
+### With Automatic
+
+Aurabox skills supports one-click install using Automatic
+
+[![Install in Automatic](https://tryautomatic.app/badges/install.svg)](automatic://install?repo=aurabx/skills)
+
+### Manual
+
 Copy the skills you want into your project's `.claude/skills/` directory or your personal `~/.claude/skills/` directory.
 
 ```bash
