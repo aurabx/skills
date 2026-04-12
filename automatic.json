@@ -1,0 +1,16 @@
+{
+  "$schema": "https://tryautomatic.app/schemas/automatic.json",
+  "name": "aurabox-skills",
+  "version": "1.0.0",
+  "description": "Skills for working with the Aurabox medical imaging platform and medical imaging data",
+  "author": { "name": "Aurabox", "url": "https://github.com/aurabx" },
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/aurabx/skills.git" },
+  "keywords": ["medical-imaging", "dicom", "dicomweb", "healthcare", "aurabox"],
+
+  "pinning": { "strategy": "branch", "ref": "main" },
+
+  "skills": {
+    "skill_json": "./skill.json"
+  }
+}
