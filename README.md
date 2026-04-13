@@ -1,6 +1,6 @@
 # Aurabox Skills
 
-[![Install in Automatic](https://tryautomatic.app/badges/install.svg)](automatic://install?repo=aurabx/skills)
+<a href="automatic://install?repo=aurabx/skills"><img src="https://tryautomatic.app/badges/install.svg" alt="Install in Automatic"></a>
 
 Skills for working with the [Aurabox](https://aurabox.cloud) medical imaging platform and medical imaging data.
 
@@ -41,7 +41,7 @@ Skills for working with the [Aurabox](https://aurabox.cloud) medical imaging pla
 
 Aurabox skills supports one-click install using Automatic
 
-[![Install in Automatic](https://tryautomatic.app/badges/install.svg)](automatic://install?repo=aurabx/skills)
+<a href="automatic://install?repo=aurabx/skills"><img src="https://tryautomatic.app/badges/install.svg" alt="Install in Automatic"></a>
 
 ### Manual
 
